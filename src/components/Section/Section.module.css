@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ffb700;
+}

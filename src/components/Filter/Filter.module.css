@@ -1,0 +1,27 @@
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffb700;
+}
+
+.input {
+  margin-top: 10px;
+  padding: 10px 15px;
+
+  font-size: 24px;
+
+  border: 2px solid #ffb700;
+  border-radius: 10px;
+  color: #ffb700;
+  background-color: #4b5ed7;
+}
+
+.input::placeholder {
+  color: #ffb700;
+}
